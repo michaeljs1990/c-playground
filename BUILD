@@ -4,7 +4,7 @@ cc_binary(
         "main.c",
     ],
     deps = [
-        ":sort",
-        ":utils",
+        "//src/sort",
+        "//src/utils",
     ],
 )

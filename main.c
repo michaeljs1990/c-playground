@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "bubble.h"
-#include "utils.h"
+#include "src/sort/sort.h"
+#include "src/utils/utils.h"
 
 int main() {
   int unsorted[5] = {4, 5, 6, 10, 2};
